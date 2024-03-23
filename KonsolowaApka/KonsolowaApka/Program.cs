@@ -13,13 +13,13 @@
         static double ObliczSrednia(int[] liczby)
         {
            
-            int suma = 0;
+            int sumaD = 0;
             foreach (int liczba in liczby)
             {
-                suma += liczba;
+                sumaD += liczba;
             }
 
-            return (double)suma / liczby.Length;
+            return (double)sumaD / liczby.Length;
         }
 
         static int Max(int[] liczby)
