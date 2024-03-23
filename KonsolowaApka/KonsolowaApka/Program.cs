@@ -13,6 +13,7 @@
         static double ObliczSrednia(int[] liczby)
         {
            
+<<<<<<< HEAD
             int sumaD = 0;
             foreach (int liczba in liczby)
             {
@@ -20,6 +21,15 @@
             }
 
             return (double)sumaD / liczby.Length;
+=======
+            int omnom = 0;
+            foreach (int liczba in liczby)
+            {
+                omnom += liczba;
+            }
+
+            return (double)omnom / liczby.Length;
+>>>>>>> feature-new
         }
 
         static int Max(int[] liczby)
